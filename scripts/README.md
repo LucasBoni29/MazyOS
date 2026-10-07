@@ -16,6 +16,8 @@ Conforme você for ativando skills, isso aqui vai sendo populado. Lista do que c
 | `/aprovar-post` | `postar-facebook.js` | Publica carrossel no Facebook via Meta Graph API |
 | `/anuncio-google` | (nenhum — gera CSV direto) | — |
 | `/relatorio-ads` | (lê CSV exportado das plataformas) | — |
+| `/editar-video` | `cortar_video.py` | Corta trechos do raw (timestamps) e concatena via ffmpeg |
+| `/thumbnail` | `gerar_thumbnail.py` | Remove fundo da foto (rembg) e monta thumb 16:9 + 9:16 |
 
 ## Pré-requisitos comuns
 
@@ -37,6 +39,17 @@ SITE_URL=https://seudominio.com.br
 npm install playwright
 npx playwright install chromium
 ```
+
+**ffmpeg** (pra `/editar-video`):
+```powershell
+winget install Gyan.FFmpeg
+```
+
+**Pillow + rembg** (pra `/thumbnail`):
+```bash
+pip install Pillow "rembg[cpu]"
+```
+(sem o `[cpu]` falta o backend `onnxruntime` e a remoção de fundo falha em runtime)
 
 ## Como o MazyOS lida com isso
 

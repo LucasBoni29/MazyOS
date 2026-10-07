@@ -113,3 +113,57 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+## BoniFLY — perfil do negócio
+
+> Preenchido pelo `/instalar`.
+
+### O que é esse workspace
+
+Operação de conteúdo do BoniFLY — marca pessoal de criador de conteúdo gamer no TikTok. Aqui Lucas produz, edita e publica shorts de jogos (terror, FPS, RPG) com reações exageradas, em paralelo ao trabalho full-time como desenvolvedor Full Stack.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é o Lucas/BoniFLY, como fala, o que tá em foco agora
+- `identidade/` — cores, fontes, logo, padrão visual (ainda em branco)
+- `marketing/` — conteúdo, legendas, roteiros (saída das skills)
+- `saidas/` — análises, documentos pontuais
+- `dados/` — arquivos a analisar (CSV, PDF, planilha)
+- `scripts/` — utilitários (gerar imagem, postar, render)
+- `tarefas.md` — o que tá em jogo agora
+
+### Quem é
+
+Lucas, também conhecido como **BoniFLY**. Desenvolvedor Full Stack de dia (08h-17h), criador de conteúdo gamer fora do expediente — sozinho, com apoio de IA pra edição. Grava com OBS Studio.
+
+### O que produz
+
+- Shorts de TikTok jogando terror, FPS e RPG, com reações exageradas ("noia jogando")
+
+### Audiência
+
+Ainda no zero — construindo do início. Público-alvo: pessoas que curtem rir vendo bagunça, surto de raiva e reação exagerada em jogo de terror; parte quer jogar junto com ele por ser divertido.
+
+### Tom de voz
+
+Informal, direto, humor ácido e autodepreciativo, palavrão leve pra dar ênfase. Ver exemplos completos em `_memoria/preferencias.md`.
+
+Evitar: clichê motivacional, abertura padrão de criador genérico, qualquer coisa que soe roteirizada.
+
+### Posicionamento
+
+Autenticidade acima de produção polida — o diferencial do BoniFLY é parecer real, não um canal "profissional" de games. Novo no ramo, ainda competindo mentalmente com veteranos (Alanzoka, Coringa, Bistecone, LuanGameplay), mas a aposta é a reação genuína, não a comparação direta.
+
+### Regras do sistema
+
+- Conteúdo novo salvar em `marketing/conteudo/<tipo>-<tema>-<data>/`
+- Skills ativas pro fluxo de produção: `/editar-video` (corta raw do OBS via ffmpeg a partir
+  de timestamps), `/thumbnail` (monta capa YouTube+TikTok via Pillow/rembg), `/briefing-semanal`
+  (plano de gravação da semana)
+
+### Ferramentas conectadas
+
+- [x] OBS Studio (gravação)
+- [x] Edição automatizada local — ffmpeg (`/editar-video`) + Pillow/rembg (`/thumbnail`)
+- [ ] TikTok (conta em criação)
