@@ -1,0 +1,407 @@
+[
+ {
+  "texto": "Fazer",
+  "inicio": 8.219999999999999,
+  "fim": 8.66
+ },
+ {
+  "texto": "sim",
+  "inicio": 8.66,
+  "fim": 8.84
+ },
+ {
+  "texto": "pra",
+  "inicio": 8.84,
+  "fim": 8.96
+ },
+ {
+  "texto": "sim,",
+  "inicio": 8.96,
+  "fim": 9.26
+ },
+ {
+  "texto": "filho.",
+  "inicio": 9.36,
+  "fim": 9.46
+ },
+ {
+  "texto": "Ih,",
+  "inicio": 9.62,
+  "fim": 9.86
+ },
+ {
+  "texto": "tem",
+  "inicio": 10.08,
+  "fim": 10.2
+ },
+ {
+  "texto": "um",
+  "inicio": 10.2,
+  "fim": 10.4
+ },
+ {
+  "texto": "falso",
+  "inicio": 10.4,
+  "fim": 10.76
+ },
+ {
+  "texto": "aqui,",
+  "inicio": 10.76,
+  "fim": 11.0
+ },
+ {
+  "texto": "que",
+  "inicio": 11.08,
+  "fim": 11.18
+ },
+ {
+  "texto": "é",
+  "inicio": 11.18,
+  "fim": 11.3
+ },
+ {
+  "texto": "um",
+  "inicio": 11.3,
+  "fim": 11.4
+ },
+ {
+  "texto": "falso",
+  "inicio": 11.4,
+  "fim": 11.72
+ },
+ {
+  "texto": "aqui.",
+  "inicio": 11.72,
+  "fim": 12.0
+ },
+ {
+  "texto": "Me",
+  "inicio": 12.34,
+  "fim": 12.56
+ },
+ {
+  "texto": "ajuda,",
+  "inicio": 12.56,
+  "fim": 12.74
+ },
+ {
+  "texto": "me",
+  "inicio": 12.82,
+  "fim": 12.94
+ },
+ {
+  "texto": "ajuda.",
+  "inicio": 12.94,
+  "fim": 13.16
+ },
+ {
+  "texto": "Tá",
+  "inicio": 13.36,
+  "fim": 13.6
+ },
+ {
+  "texto": "me",
+  "inicio": 13.6,
+  "fim": 13.68
+ },
+ {
+  "texto": "seguindo,",
+  "inicio": 13.68,
+  "fim": 13.9
+ },
+ {
+  "texto": "tá",
+  "inicio": 13.9,
+  "fim": 14.12
+ },
+ {
+  "texto": "me",
+  "inicio": 14.12,
+  "fim": 14.14
+ },
+ {
+  "texto": "seguindo.",
+  "inicio": 14.14,
+  "fim": 14.5
+ },
+ {
+  "texto": "Mata",
+  "inicio": 16.08,
+  "fim": 16.52
+ },
+ {
+  "texto": "ele,",
+  "inicio": 16.52,
+  "fim": 16.66
+ },
+ {
+  "texto": "mata",
+  "inicio": 16.76,
+  "fim": 16.9
+ },
+ {
+  "texto": "ele,",
+  "inicio": 16.9,
+  "fim": 17.12
+ },
+ {
+  "texto": "ok?",
+  "inicio": 17.4,
+  "fim": 17.62
+ },
+ {
+  "texto": "Não!",
+  "inicio": 18.4,
+  "fim": 18.84
+ },
+ {
+  "texto": "Não,",
+  "inicio": 21.16,
+  "fim": 21.6
+ },
+ {
+  "texto": "cê",
+  "inicio": 21.84,
+  "fim": 22.08
+ },
+ {
+  "texto": "não",
+  "inicio": 22.08,
+  "fim": 22.14
+ },
+ {
+  "texto": "vai,",
+  "inicio": 22.14,
+  "fim": 22.36
+ },
+ {
+  "texto": "cê",
+  "inicio": 22.7,
+  "fim": 22.94
+ },
+ {
+  "texto": "não",
+  "inicio": 22.94,
+  "fim": 23.06
+ },
+ {
+  "texto": "vai.",
+  "inicio": 23.06,
+  "fim": 23.34
+ },
+ {
+  "texto": "Matou.",
+  "inicio": 23.6,
+  "fim": 24.04
+ },
+ {
+  "texto": "Nossa!",
+  "inicio": 25.92,
+  "fim": 26.36
+ },
+ {
+  "texto": "Aqui,",
+  "inicio": 26.52,
+  "fim": 26.74
+ },
+ {
+  "texto": "eu",
+  "inicio": 26.8,
+  "fim": 26.84
+ },
+ {
+  "texto": "salvar",
+  "inicio": 26.84,
+  "fim": 27.12
+ },
+ {
+  "texto": "um",
+  "inicio": 27.12,
+  "fim": 27.28
+ },
+ {
+  "texto": "amigo.",
+  "inicio": 27.28,
+  "fim": 27.5
+ },
+ {
+  "texto": "Tá",
+  "inicio": 27.6,
+  "fim": 27.7
+ },
+ {
+  "texto": "porra.",
+  "inicio": 27.7,
+  "fim": 28.04
+ },
+ {
+  "texto": "Bate",
+  "inicio": 28.900000000000002,
+  "fim": 29.46
+ },
+ {
+  "texto": "no",
+  "inicio": 29.46,
+  "fim": 29.66
+ },
+ {
+  "texto": "cadáver,",
+  "inicio": 29.66,
+  "fim": 30.14
+ },
+ {
+  "texto": "vamo",
+  "inicio": 30.14,
+  "fim": 30.6
+ },
+ {
+  "texto": "bora.",
+  "inicio": 30.6,
+  "fim": 30.88
+ },
+ {
+  "texto": "Mas",
+  "inicio": 31.2,
+  "fim": 31.2
+ },
+ {
+  "texto": "matou",
+  "inicio": 31.2,
+  "fim": 31.44
+ },
+ {
+  "texto": "o",
+  "inicio": 31.44,
+  "fim": 31.6
+ },
+ {
+  "texto": "Portugal.",
+  "inicio": 31.6,
+  "fim": 32.14
+ },
+ {
+  "texto": "Bate",
+  "inicio": 32.94,
+  "fim": 33.5
+ },
+ {
+  "texto": "no",
+  "inicio": 33.5,
+  "fim": 33.72
+ },
+ {
+  "texto": "cadáver,",
+  "inicio": 33.72,
+  "fim": 34.3
+ },
+ {
+  "texto": "véi.",
+  "inicio": 34.34,
+  "fim": 34.66
+ },
+ {
+  "texto": "Eu",
+  "inicio": 35.26,
+  "fim": 35.68
+ },
+ {
+  "texto": "mato",
+  "inicio": 35.68,
+  "fim": 35.94
+ },
+ {
+  "texto": "o",
+  "inicio": 35.94,
+  "fim": 36.08
+ },
+ {
+  "texto": "Portugal,",
+  "inicio": 36.08,
+  "fim": 36.38
+ },
+ {
+  "texto": "não",
+  "inicio": 36.5,
+  "fim": 36.58
+ },
+ {
+  "texto": "sei",
+  "inicio": 36.58,
+  "fim": 36.8
+ },
+ {
+  "texto": "agora.",
+  "inicio": 36.8,
+  "fim": 37.16
+ },
+ {
+  "texto": "O",
+  "inicio": 40.62,
+  "fim": 41.18
+ },
+ {
+  "texto": "Portugal",
+  "inicio": 41.18,
+  "fim": 41.64
+ },
+ {
+  "texto": "levantou,",
+  "inicio": 41.64,
+  "fim": 42.22
+ },
+ {
+  "texto": "cê",
+  "inicio": 42.32,
+  "fim": 42.48
+ },
+ {
+  "texto": "matou",
+  "inicio": 42.48,
+  "fim": 42.9
+ },
+ {
+  "texto": "ele,",
+  "inicio": 42.9,
+  "fim": 43.16
+ },
+ {
+  "texto": "véi.",
+  "inicio": 43.32,
+  "fim": 43.56
+ },
+ {
+  "texto": "Cara,",
+  "inicio": 50.98,
+  "fim": 51.54
+ },
+ {
+  "texto": "cê",
+  "inicio": 51.56,
+  "fim": 51.78
+ },
+ {
+  "texto": "matou,",
+  "inicio": 51.78,
+  "fim": 52.12
+ },
+ {
+  "texto": "véi.",
+  "inicio": 52.22,
+  "fim": 52.42
+ },
+ {
+  "texto": "Tchau,",
+  "inicio": 52.64,
+  "fim": 53.18
+ },
+ {
+  "texto": "meu",
+  "inicio": 53.42,
+  "fim": 53.48
+ },
+ {
+  "texto": "Deus.",
+  "inicio": 53.48,
+  "fim": 53.56
+ }
+]

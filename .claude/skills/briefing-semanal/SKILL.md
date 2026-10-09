@@ -39,6 +39,13 @@ Pra cada gravação da semana, definir:
   interessante (ex: "tentar passar de um boss usando a pior arma do jogo", "terminar o jogo
   sem usar guia nenhum", "primeira vez jogando às cegas"). Se o usuário não tiver um gancho
   claro, sugerir 1-2 opções com base no jogo escolhido
+- **Gatilho/âncora (só quando a gravação é "deixa rolar", sem desafio fixo):** uma mini-regra
+  de 1 frase pra direcionar a jogatina e aumentar a chance de sair um momento engraçado — ex:
+  "quem assustar primeiro paga a rodada", "o amigo vai na frente em toda porta". Gravação com
+  gancho concreto (tipo "terminar sem guia") já tem direção própria e não precisa de âncora
+- **Texto Thumb:** até 3 palavras, no padrão de `_memoria/preferencias.md` (caixa alta, impacto,
+  sem clichê) — alimenta direto a skill `/thumbnail` depois, sem o usuário ter que pensar nisso
+  de novo na hora de montar a capa
 - **Formato/plataforma:** YouTube longo (gameplay completa) ou corte dinâmico pro TikTok
   (shorts com os melhores momentos)
 - **Dia sugerido:** distribuir ao longo da semana, sem overload — considerar que o usuário
@@ -55,9 +62,10 @@ Formato do arquivo `marketing/briefing-semana-<data>.md`:
 # Briefing da semana — <data de início> a <data de fim>
 
 ## <Dia da semana> — <Jogo>
-**Gancho:** <desafio/história da gameplay>
-**Formato:** <YouTube longo | Corte TikTok>
-**Notas:** <qualquer observação extra>
+- **Gancho:** <desafio/história da gameplay, incluindo a âncora quando for sessão "deixa rolar">
+- **Formato:** <YouTube longo | Corte TikTok>
+- **Texto Thumb:** <até 3 palavras>
+- **Notas:** <qualquer observação extra>
 
 ## <Dia da semana> — <Jogo>
 ...
@@ -76,6 +84,10 @@ salvar definitivo.
   (criar atrito por sessão é exatamente o que essa skill existe pra evitar)
 - Gancho tem que ser concreto e específico, nunca genérico ("vou jogar e ver o que acontece"
   não é gancho)
+- Sessão "deixa rolar" sempre vem com uma âncora de 1 frase — sem isso, o corte depois não tem
+  nada garantido pra trabalhar
+- Texto Thumb sempre preenchido, mesmo que o usuário não peça — é o que a `/thumbnail` vai usar
+  depois, e pedir de novo na hora da capa é o atrito que essa skill existe pra evitar
 - Respeitar o tom de `_memoria/preferencias.md` ao sugerir ganchos — nada de frase roteirizada
   ou clichê de criador genérico
 - Se a semana não tiver tema/fio condutor nenhum, tá tudo bem — nem toda semana precisa de

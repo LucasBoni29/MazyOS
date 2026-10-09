@@ -19,6 +19,8 @@ essa skill só precisa cortar e juntar.
   Se não encontrar, parar e mostrar o passo a passo de instalação (ver seção abaixo) —
   não tentar contornar de outra forma.
 - **Python 3** (já vem com o projeto)
+- **faster-whisper** (`pip install faster-whisper`) — só pra etapa de legenda. Primeira execução
+  baixa o modelo (~1.6GB)
 - **Script:** `scripts/cortar_video.py`
 - **Outputs vão em:** `marketing/conteudo/video-<tema>-<YYYY-MM-DD>/`
 
@@ -55,7 +57,26 @@ python scripts/cortar_video.py "<raw>" "marketing/conteudo/video-<tema>-<data>/t
 
 Mostrar o progresso e o resultado (duração final, caminho do arquivo).
 
-### Passo 5 — Confirmar
+### Passo 5 — Legenda (opcional, recomendado pra TikTok)
+
+Legenda estilo TikTok: palavra em branco que fica amarela no momento da fala, abaixo da gameplay.
+Usa `scripts/legendar_video.py` (faster-whisper, modelo `large-v3-turbo`, roda local na CPU).
+
+1. Transcrever o vídeo já cortado:
+   ```bash
+   python scripts/legendar_video.py transcrever "<pasta>/<short>.mp4"
+   ```
+   Gera `<short>.legenda.txt` (uma linha por bloco: `[mm:ss.cc - mm:ss.cc] texto`)
+2. **CHECKPOINT:** mostrar o `.txt` pro usuário e pedir que ele corrija. Os gameplays têm
+   várias pessoas falando ao mesmo tempo + som do jogo + gíria, então sempre vai ter erro.
+   Ele pode corrigir palavras, apagar linhas ou ajustar tempos — nunca gravar sem essa revisão
+3. Gravar a legenda:
+   ```bash
+   python scripts/legendar_video.py gravar "<pasta>/<short>.mp4"
+   ```
+   Gera `<short>-legendado.mp4` — o vídeo sem legenda continua intacto
+
+### Passo 6 — Confirmar
 
 Avisar que o vídeo final está pronto e perguntar se o usuário quer revisar antes de considerar
 publicável, ou se já pode seguir pra thumbnail / publicação.

@@ -1,13 +1,13 @@
 """
 Monta thumbnail de gameplay a partir de:
   - um print marcante da gameplay (fundo)
-  - uma foto normal sua (o fundo é removido automaticamente via rembg)
   - um texto curto de impacto (até ~3 palavras)
+  - opcionalmente, uma foto normal sua (o fundo é removido automaticamente via rembg)
 
 Gera dois arquivos: thumbnail-youtube.png (1280x720) e thumbnail-tiktok.png (1080x1920).
 
 Uso:
-  python gerar_thumbnail.py <print.jpg> <foto.jpg> "TEXTO AQUI" <pasta_saida>
+  python gerar_thumbnail.py <print.jpg> "TEXTO AQUI" <pasta_saida> [--foto foto.jpg]
 """
 
 import argparse
@@ -69,8 +69,30 @@ def draw_impact_text(canvas: Image.Image, text: str, center_xy, max_width: int, 
     )
 
 
-def montar_youtube(print_img: Image.Image, foto_cutout: Image.Image, texto: str) -> Image.Image:
+def add_bottom_gradient(canvas: Image.Image, altura_frac: float) -> None:
+    w, h = canvas.size
+    faixa_h = int(h * altura_frac)
+    gradiente = Image.new("L", (1, faixa_h), 0)
+    for y in range(faixa_h):
+        gradiente.putpixel((0, y), int(200 * (y / faixa_h) ** 1.6))
+    gradiente = gradiente.resize((w, faixa_h))
+    overlay = Image.new("RGBA", (w, faixa_h), (0, 0, 0, 0))
+    overlay.putalpha(gradiente)
+    canvas.alpha_composite(overlay, (0, h - faixa_h))
+
+
+def montar_youtube(print_img: Image.Image, foto_cutout: "Image.Image | None", texto: str) -> Image.Image:
     canvas = cover_crop(print_img.convert("RGB"), YOUTUBE_SIZE).convert("RGBA")
+
+    if foto_cutout is None:
+        add_bottom_gradient(canvas, 0.5)
+        draw_impact_text(
+            canvas, texto,
+            center_xy=(YOUTUBE_SIZE[0] * 0.5, YOUTUBE_SIZE[1] * 0.82),
+            max_width=YOUTUBE_SIZE[0] * 0.9,
+            base_size=130,
+        )
+        return canvas.convert("RGB")
 
     foto_h = int(YOUTUBE_SIZE[1] * 0.95)
     ratio = foto_h / foto_cutout.height
@@ -90,8 +112,18 @@ def montar_youtube(print_img: Image.Image, foto_cutout: Image.Image, texto: str)
     return canvas.convert("RGB")
 
 
-def montar_tiktok(print_img: Image.Image, foto_cutout: Image.Image, texto: str) -> Image.Image:
+def montar_tiktok(print_img: Image.Image, foto_cutout: "Image.Image | None", texto: str) -> Image.Image:
     canvas = cover_crop(print_img.convert("RGB"), TIKTOK_SIZE).convert("RGBA")
+
+    if foto_cutout is None:
+        add_bottom_gradient(canvas, 0.38)
+        draw_impact_text(
+            canvas, texto,
+            center_xy=(TIKTOK_SIZE[0] * 0.5, TIKTOK_SIZE[1] * 0.86),
+            max_width=TIKTOK_SIZE[0] * 0.9,
+            base_size=120,
+        )
+        return canvas.convert("RGB")
 
     foto_h = int(TIKTOK_SIZE[1] * 0.62)
     ratio = foto_h / foto_cutout.height
@@ -114,17 +146,19 @@ def montar_tiktok(print_img: Image.Image, foto_cutout: Image.Image, texto: str) 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("print_path", type=Path)
-    parser.add_argument("foto_path", type=Path)
     parser.add_argument("texto")
     parser.add_argument("saida_dir", type=Path)
+    parser.add_argument("--foto", type=Path, default=None, help="Foto de reação (opcional)")
     args = parser.parse_args()
 
-    for p in (args.print_path, args.foto_path):
-        if not p.exists():
+    for p in (args.print_path, args.foto):
+        if p is not None and not p.exists():
             sys.exit(f"Arquivo não encontrado: {p}")
 
-    print("Removendo fundo da foto...")
-    foto_cutout = remove_background(args.foto_path)
+    foto_cutout = None
+    if args.foto is not None:
+        print("Removendo fundo da foto...")
+        foto_cutout = remove_background(args.foto)
 
     print_img = Image.open(args.print_path)
 

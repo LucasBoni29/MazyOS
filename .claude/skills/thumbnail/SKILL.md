@@ -1,16 +1,16 @@
 ---
 name: thumbnail
 description: >
-  Monta a thumbnail do vídeo combinando print da gameplay + foto de reação (fundo removido
-  automaticamente via rembg) + texto curto de impacto. Gera as duas versões de uma vez:
-  16:9 pra YouTube e 9:16 pra TikTok/Shorts. Use quando o usuário disser "cria a thumbnail",
-  "faz a capa do vídeo", "monta a thumb", ou /thumbnail.
+  Monta a thumbnail do vídeo combinando print da gameplay + texto curto de impacto, com foto
+  de reação opcional (fundo removido automaticamente via rembg, quando o usuário grava webcam).
+  Gera as duas versões de uma vez: 16:9 pra YouTube e 9:16 pra TikTok/Shorts. Use quando o
+  usuário disser "cria a thumbnail", "faz a capa do vídeo", "monta a thumb", ou /thumbnail.
 ---
 
 # /thumbnail — Capa do vídeo (YouTube + TikTok)
 
-Pega print + foto normal + texto → entrega as duas thumbnails já prontas, sem o usuário
-precisar recortar nada na mão.
+Pega print + texto (+ foto de reação, se tiver) → entrega as duas thumbnails já prontas, sem
+o usuário precisar recortar nada na mão.
 
 ## Dependências
 
@@ -32,10 +32,16 @@ alguma, mostrar a instalação (seção abaixo) e parar — não seguir sem elas
 
 Perguntar (ou já receber):
 
-1. Print marcante da gameplay (momento engraçado/chocante)
-2. Foto normal do usuário com a expressão de reação — **não precisa já vir recortada**,
-   o script remove o fundo sozinho
-3. Texto de impacto, até 3 palavras (ex: "ISSO É REAL?", "SAÍ CORRENDO")
+1. Print marcante da gameplay (momento engraçado/chocante). Se o vídeo já estiver cortado,
+   pode extrair direto do `.mp4` com ffmpeg (`ffmpeg -ss <segundo> -i video.mp4 -frames:v 1 print.png`)
+   em vez de pedir pro usuário mandar um print separado
+2. Foto do usuário com a expressão de reação — **opcional**. Só pedir se ele gravou webcam
+   nessa sessão. Sem ela, a thumbnail sai só com o print + texto (com um gradiente escuro
+   embaixo pra legibilidade) — formato bem comum em thumbnail de gameplay, não é problema
+3. Texto de impacto, até 3 palavras. **Prioridade:** puxar da própria legenda do vídeo já
+   gravada (`scripts/legendar_video.py`) se tiver uma fala/trecho forte — é a voz real do
+   vídeo, melhor que inventar uma frase nova. Se não tiver nada bom na legenda, propor 2-3
+   opções pro usuário escolher em vez de decidir sozinho (é uma escolha de gosto)
 4. Tema/jogo, pra nomear a pasta
 
 Se o texto vier mais longo que 3-4 palavras, sugerir um corte mais curto antes de gerar
@@ -44,7 +50,7 @@ Se o texto vier mais longo que 3-4 palavras, sugerir um corte mais curto antes d
 ### Passo 2 — Gerar
 
 ```bash
-python scripts/gerar_thumbnail.py "<print>" "<foto>" "TEXTO" "marketing/conteudo/thumb-<tema>-<data>/"
+python scripts/gerar_thumbnail.py "<print>" "TEXTO" "marketing/conteudo/thumb-<tema>-<data>/" [--foto "<foto>"]
 ```
 
 Isso gera `thumbnail-youtube.png` (1280x720) e `thumbnail-tiktok.png` (1080x1920) na pasta.

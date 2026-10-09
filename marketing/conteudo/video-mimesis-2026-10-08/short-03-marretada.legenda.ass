@@ -1,0 +1,47 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Fala,Impact,92,&H0000E5FF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,1,0,1,6,3,2,60,60,440,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.22,0:00:08.96,Fala,,0,0,0,,{\k44}FAZER {\k18}SEMPRE
+Dialogue: 0,0:00:08.96,0:00:09.46,Fala,,0,0,0,,{\k30}ASSIM, {\k10}{\k10}FILHO.
+Dialogue: 0,0:00:09.62,0:00:10.40,Fala,,0,0,0,,{\k24}IH, {\k22}{\k12}TEM {\k20}UM
+Dialogue: 0,0:00:10.40,0:00:11.18,Fala,,0,0,0,,{\k36}FALSO {\k24}AQUI, {\k8}{\k10}QUEM
+Dialogue: 0,0:00:11.18,0:00:11.72,Fala,,0,0,0,,{\k12}É {\k10}O {\k32}FALSO
+Dialogue: 0,0:00:11.72,0:00:12.00,Fala,,0,0,0,,{\k28}AQUI.
+Dialogue: 0,0:00:12.34,0:00:13.16,Fala,,0,0,0,,{\k22}ME {\k18}AJUDA, {\k8}{\k12}ME {\k22}AJUDA
+Dialogue: 0,0:00:13.36,0:00:13.90,Fala,,0,0,0,,{\k24}TÁ {\k8}ME {\k22}SEGUINDO,
+Dialogue: 0,0:00:13.90,0:00:14.50,Fala,,0,0,0,,{\k22}TÁ {\k2}ME {\k36}SEGUINDO.
+Dialogue: 0,0:00:16.08,0:00:16.90,Fala,,0,0,0,,{\k44}MATA {\k14}ELE, {\k10}{\k14}MATA
+Dialogue: 0,0:00:16.90,0:00:17.62,Fala,,0,0,0,,{\k22}ELE, {\k28}{\k22}ALG--
+Dialogue: 0,0:00:18.40,0:00:18.84,Fala,,0,0,0,,{\k44}NÃO!
+Dialogue: 0,0:00:21.16,0:00:22.14,Fala,,0,0,0,,{\k44}NÃO, {\k24}{\k24}CÊ {\k6}NÃO
+Dialogue: 0,0:00:22.14,0:00:23.06,Fala,,0,0,0,,{\k22}VAI, {\k34}{\k24}CÊ {\k12}NÃO
+Dialogue: 0,0:00:23.06,0:00:23.34,Fala,,0,0,0,,{\k28}VAI.
+Dialogue: 0,0:00:23.60,0:00:24.04,Fala,,0,0,0,,{\k44}MATOU.
+Dialogue: 0,0:00:25.92,0:00:26.36,Fala,,0,0,0,,{\k44}NOSSA!
+Dialogue: 0,0:00:26.52,0:00:27.12,Fala,,0,0,0,,{\k22}AQUI, {\k6}{\k4}EU {\k28}SALVAR
+Dialogue: 0,0:00:27.12,0:00:27.50,Fala,,0,0,0,,{\k16}UM {\k22}AMIGO.
+Dialogue: 0,0:00:27.60,0:00:28.04,Fala,,0,0,0,,{\k10}TÁ {\k34}PORRA.
+Dialogue: 0,0:00:28.90,0:00:30.14,Fala,,0,0,0,,{\k0}{\k56}BATI {\k20}NO {\k48}CADÁVER,
+Dialogue: 0,0:00:30.14,0:00:30.88,Fala,,0,0,0,,{\k46}VAMO {\k28}BORA.
+Dialogue: 0,0:00:31.20,0:00:31.60,Fala,,0,0,0,,{\k0}SE {\k24}MATOU {\k16}O
+Dialogue: 0,0:00:31.60,0:00:32.14,Fala,,0,0,0,,{\k54}PORTUGAL.
+Dialogue: 0,0:00:32.94,0:00:34.30,Fala,,0,0,0,,{\k56}BATI {\k22}NO {\k58}CADÁVER,
+Dialogue: 0,0:00:34.34,0:00:34.66,Fala,,0,0,0,,{\k32}VÉI.
+Dialogue: 0,0:00:35.26,0:00:36.08,Fala,,0,0,0,,{\k42}OU {\k26}MATEI {\k14}O
+Dialogue: 0,0:00:36.08,0:00:36.80,Fala,,0,0,0,,{\k30}PORTUGAL, {\k12}{\k8}NÃO {\k22}SEI
+Dialogue: 0,0:00:36.80,0:00:37.16,Fala,,0,0,0,,{\k36}AGORA.
+Dialogue: 0,0:00:40.62,0:00:41.64,Fala,,0,0,0,,{\k56}O {\k46}PORTUGAL
+Dialogue: 0,0:00:41.64,0:00:42.90,Fala,,0,0,0,,{\k58}LEVANTOU, {\k10}{\k16}CÊ {\k42}MATOU
+Dialogue: 0,0:00:42.90,0:00:43.56,Fala,,0,0,0,,{\k26}ELE, {\k16}{\k24}VÉI.
+Dialogue: 0,0:00:50.98,0:00:52.12,Fala,,0,0,0,,{\k29}CARA, {\k28}CÊ {\k28}ME {\k29}MATOU,
+Dialogue: 0,0:00:52.22,0:00:52.42,Fala,,0,0,0,,{\k20}VÉI.
+Dialogue: 0,0:00:52.64,0:00:53.56,Fala,,0,0,0,,{\k54}TE {\k24}{\k6}MATEI

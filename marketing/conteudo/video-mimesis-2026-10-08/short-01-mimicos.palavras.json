@@ -1,0 +1,982 @@
+[
+ {
+  "texto": "Saca!",
+  "inicio": 0.0,
+  "fim": 0.44
+ },
+ {
+  "texto": "Puta",
+  "inicio": 1.74,
+  "fim": 2.18
+ },
+ {
+  "texto": "que",
+  "inicio": 2.18,
+  "fim": 2.4
+ },
+ {
+  "texto": "parada!",
+  "inicio": 2.4,
+  "fim": 2.76
+ },
+ {
+  "texto": "Chega",
+  "inicio": 2.98,
+  "fim": 3.42
+ },
+ {
+  "texto": "perto",
+  "inicio": 3.42,
+  "fim": 3.62
+ },
+ {
+  "texto": "de",
+  "inicio": 3.62,
+  "fim": 3.72
+ },
+ {
+  "texto": "mim",
+  "inicio": 3.72,
+  "fim": 3.76
+ },
+ {
+  "texto": "e",
+  "inicio": 3.76,
+  "fim": 3.86
+ },
+ {
+  "texto": "fala",
+  "inicio": 3.86,
+  "fim": 3.94
+ },
+ {
+  "texto": "buzina!",
+  "inicio": 3.94,
+  "fim": 4.34
+ },
+ {
+  "texto": "É",
+  "inicio": 4.66,
+  "fim": 4.86
+ },
+ {
+  "texto": "verdade!",
+  "inicio": 4.86,
+  "fim": 5.08
+ },
+ {
+  "texto": "Eu",
+  "inicio": 5.08,
+  "fim": 5.2
+ },
+ {
+  "texto": "tiro",
+  "inicio": 5.2,
+  "fim": 5.38
+ },
+ {
+  "texto": "a",
+  "inicio": 5.38,
+  "fim": 5.88
+ },
+ {
+  "texto": "vida!",
+  "inicio": 5.88,
+  "fim": 6.1
+ },
+ {
+  "texto": "Buzina!",
+  "inicio": 6.38,
+  "fim": 6.82
+ },
+ {
+  "texto": "É",
+  "inicio": 7.22,
+  "fim": 7.54
+ },
+ {
+  "texto": "esse",
+  "inicio": 7.54,
+  "fim": 7.72
+ },
+ {
+  "texto": "filho",
+  "inicio": 7.72,
+  "fim": 7.86
+ },
+ {
+  "texto": "da",
+  "inicio": 7.86,
+  "fim": 8.0
+ },
+ {
+  "texto": "puta,",
+  "inicio": 8.0,
+  "fim": 8.08
+ },
+ {
+  "texto": "eu",
+  "inicio": 8.14,
+  "fim": 8.2
+ },
+ {
+  "texto": "vou",
+  "inicio": 8.2,
+  "fim": 8.26
+ },
+ {
+  "texto": "matar!",
+  "inicio": 8.26,
+  "fim": 8.36
+ },
+ {
+  "texto": "Toma!",
+  "inicio": 9.42,
+  "fim": 9.86
+ },
+ {
+  "texto": "Toma!",
+  "inicio": 10.04,
+  "fim": 10.44
+ },
+ {
+  "texto": "Fugi,",
+  "inicio": 11.54,
+  "fim": 11.86
+ },
+ {
+  "texto": "fugi,",
+  "inicio": 11.98,
+  "fim": 12.18
+ },
+ {
+  "texto": "fugi!",
+  "inicio": 12.3,
+  "fim": 12.54
+ },
+ {
+  "texto": "Caralho,",
+  "inicio": 12.68,
+  "fim": 13.12
+ },
+ {
+  "texto": "me",
+  "inicio": 13.18,
+  "fim": 13.3
+ },
+ {
+  "texto": "bateu",
+  "inicio": 13.3,
+  "fim": 13.68
+ },
+ {
+  "texto": "porra!",
+  "inicio": 13.68,
+  "fim": 14.0
+ },
+ {
+  "texto": "Calma",
+  "inicio": 14.52,
+  "fim": 14.7
+ },
+ {
+  "texto": "aí!",
+  "inicio": 14.7,
+  "fim": 14.82
+ },
+ {
+  "texto": "Tá",
+  "inicio": 15.02,
+  "fim": 15.1
+ },
+ {
+  "texto": "vendo,",
+  "inicio": 15.1,
+  "fim": 15.28
+ },
+ {
+  "texto": "tá",
+  "inicio": 15.4,
+  "fim": 15.54
+ },
+ {
+  "texto": "vendo",
+  "inicio": 15.54,
+  "fim": 15.7
+ },
+ {
+  "texto": "o",
+  "inicio": 15.7,
+  "fim": 16.48
+ },
+ {
+  "texto": "menor",
+  "inicio": 16.48,
+  "fim": 16.74
+ },
+ {
+  "texto": "mano!",
+  "inicio": 16.74,
+  "fim": 16.96
+ },
+ {
+  "texto": "Fecha",
+  "inicio": 18.12,
+  "fim": 18.46
+ },
+ {
+  "texto": "aí",
+  "inicio": 18.46,
+  "fim": 18.62
+ },
+ {
+  "texto": "porra!",
+  "inicio": 18.62,
+  "fim": 19.04
+ },
+ {
+  "texto": "Foge",
+  "inicio": 19.3,
+  "fim": 19.64
+ },
+ {
+  "texto": "na",
+  "inicio": 19.64,
+  "fim": 19.76
+ },
+ {
+  "texto": "porra!",
+  "inicio": 19.76,
+  "fim": 20.14
+ },
+ {
+  "texto": "Foge",
+  "inicio": 20.5,
+  "fim": 20.84
+ },
+ {
+  "texto": "na",
+  "inicio": 20.84,
+  "fim": 20.84
+ },
+ {
+  "texto": "porra!",
+  "inicio": 20.84,
+  "fim": 20.84
+ },
+ {
+  "texto": "Foge",
+  "inicio": 20.84,
+  "fim": 20.86
+ },
+ {
+  "texto": "na",
+  "inicio": 20.86,
+  "fim": 21.02
+ },
+ {
+  "texto": "porra!",
+  "inicio": 21.02,
+  "fim": 21.44
+ },
+ {
+  "texto": "Não",
+  "inicio": 21.88,
+  "fim": 22.16
+ },
+ {
+  "texto": "vai",
+  "inicio": 22.16,
+  "fim": 22.3
+ },
+ {
+  "texto": "te",
+  "inicio": 22.3,
+  "fim": 22.42
+ },
+ {
+  "texto": "comer",
+  "inicio": 22.42,
+  "fim": 22.66
+ },
+ {
+  "texto": "seu",
+  "inicio": 22.66,
+  "fim": 22.84
+ },
+ {
+  "texto": "Otávio!",
+  "inicio": 22.84,
+  "fim": 23.16
+ },
+ {
+  "texto": "Ah",
+  "inicio": 24.4,
+  "fim": 24.54
+ },
+ {
+  "texto": "não,",
+  "inicio": 24.54,
+  "fim": 24.7
+ },
+ {
+  "texto": "mentira!",
+  "inicio": 24.82,
+  "fim": 25.26
+ },
+ {
+  "texto": "Aqui,",
+  "inicio": 26.06,
+  "fim": 26.32
+ },
+ {
+  "texto": "aqui,",
+  "inicio": 26.5,
+  "fim": 26.5
+ },
+ {
+  "texto": "aqui!",
+  "inicio": 26.7,
+  "fim": 26.8
+ },
+ {
+  "texto": "Toca",
+  "inicio": 27.46,
+  "fim": 27.82
+ },
+ {
+  "texto": "o",
+  "inicio": 27.82,
+  "fim": 27.92
+ },
+ {
+  "texto": "código!",
+  "inicio": 27.92,
+  "fim": 28.12
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 29.84,
+  "fim": 30.2
+ },
+ {
+  "texto": "caralho!",
+  "inicio": 30.38,
+  "fim": 30.64
+ },
+ {
+  "texto": "Tem",
+  "inicio": 30.7,
+  "fim": 30.84
+ },
+ {
+  "texto": "quatro",
+  "inicio": 30.84,
+  "fim": 31.14
+ },
+ {
+  "texto": "de",
+  "inicio": 31.14,
+  "fim": 31.36
+ },
+ {
+  "texto": "novo!",
+  "inicio": 31.36,
+  "fim": 31.58
+ },
+ {
+  "texto": "Tem",
+  "inicio": 31.8,
+  "fim": 32.04
+ },
+ {
+  "texto": "quatro",
+  "inicio": 32.04,
+  "fim": 32.34
+ },
+ {
+  "texto": "de",
+  "inicio": 32.34,
+  "fim": 32.52
+ },
+ {
+  "texto": "novo!",
+  "inicio": 32.52,
+  "fim": 32.66
+ },
+ {
+  "texto": "Esse",
+  "inicio": 32.8,
+  "fim": 32.88
+ },
+ {
+  "texto": "daqui,",
+  "inicio": 32.88,
+  "fim": 33.06
+ },
+ {
+  "texto": "ó!",
+  "inicio": 33.1,
+  "fim": 33.48
+ },
+ {
+  "texto": "Novo",
+  "inicio": 34.160000000000004,
+  "fim": 34.52
+ },
+ {
+  "texto": "código!",
+  "inicio": 34.52,
+  "fim": 34.76
+ },
+ {
+  "texto": "Novo",
+  "inicio": 34.9,
+  "fim": 35.06
+ },
+ {
+  "texto": "código!",
+  "inicio": 35.06,
+  "fim": 35.34
+ },
+ {
+  "texto": "Xereca",
+  "inicio": 36.04,
+  "fim": 36.4
+ },
+ {
+  "texto": "colorida!",
+  "inicio": 36.4,
+  "fim": 36.76
+ },
+ {
+  "texto": "Vem",
+  "inicio": 36.94,
+  "fim": 37.16
+ },
+ {
+  "texto": "em",
+  "inicio": 37.16,
+  "fim": 37.2
+ },
+ {
+  "texto": "mim!",
+  "inicio": 37.2,
+  "fim": 37.3
+ },
+ {
+  "texto": "Xereca",
+  "inicio": 37.36,
+  "fim": 37.64
+ },
+ {
+  "texto": "colorida!",
+  "inicio": 37.64,
+  "fim": 38.02
+ },
+ {
+  "texto": "Xereca",
+  "inicio": 38.14,
+  "fim": 38.3
+ },
+ {
+  "texto": "colorida!",
+  "inicio": 38.3,
+  "fim": 38.66
+ },
+ {
+  "texto": "Xereca",
+  "inicio": 39.38,
+  "fim": 39.74
+ },
+ {
+  "texto": "colorida!",
+  "inicio": 39.74,
+  "fim": 40.08
+ },
+ {
+  "texto": "Xereca",
+  "inicio": 42.2,
+  "fim": 42.56
+ },
+ {
+  "texto": "colorida!",
+  "inicio": 42.56,
+  "fim": 42.64
+ },
+ {
+  "texto": "Me",
+  "inicio": 43.34,
+  "fim": 43.52
+ },
+ {
+  "texto": "tava",
+  "inicio": 43.52,
+  "fim": 43.72
+ },
+ {
+  "texto": "não!",
+  "inicio": 43.72,
+  "fim": 43.88
+ },
+ {
+  "texto": "Me",
+  "inicio": 43.94,
+  "fim": 44.0
+ },
+ {
+  "texto": "tava",
+  "inicio": 44.0,
+  "fim": 44.12
+ },
+ {
+  "texto": "não",
+  "inicio": 44.12,
+  "fim": 44.22
+ },
+ {
+  "texto": "com",
+  "inicio": 44.22,
+  "fim": 44.32
+ },
+ {
+  "texto": "o",
+  "inicio": 44.32,
+  "fim": 44.36
+ },
+ {
+  "texto": "baterista!",
+  "inicio": 44.36,
+  "fim": 44.74
+ },
+ {
+  "texto": "Fudeu!",
+  "inicio": 46.24,
+  "fim": 46.6
+ },
+ {
+  "texto": "Tá,",
+  "inicio": 47.64,
+  "fim": 47.82
+ },
+ {
+  "texto": "é",
+  "inicio": 47.88,
+  "fim": 47.96
+ },
+ {
+  "texto": "seu",
+  "inicio": 47.96,
+  "fim": 48.04
+ },
+ {
+  "texto": "cachorro",
+  "inicio": 48.04,
+  "fim": 48.36
+ },
+ {
+  "texto": "no",
+  "inicio": 48.36,
+  "fim": 48.52
+ },
+ {
+  "texto": "cu,",
+  "inicio": 48.52,
+  "fim": 48.66
+ },
+ {
+  "texto": "viado!",
+  "inicio": 48.8,
+  "fim": 48.84
+ },
+ {
+  "texto": "Que",
+  "inicio": 49.82,
+  "fim": 50.06
+ },
+ {
+  "texto": "cachorro",
+  "inicio": 50.06,
+  "fim": 50.36
+ },
+ {
+  "texto": "no",
+  "inicio": 50.36,
+  "fim": 50.48
+ },
+ {
+  "texto": "cu?",
+  "inicio": 50.48,
+  "fim": 50.58
+ },
+ {
+  "texto": "Eu",
+  "inicio": 50.62,
+  "fim": 50.7
+ },
+ {
+  "texto": "tô",
+  "inicio": 50.7,
+  "fim": 50.76
+ },
+ {
+  "texto": "vivo?",
+  "inicio": 50.76,
+  "fim": 51.0
+ },
+ {
+  "texto": "Porra!",
+  "inicio": 51.64,
+  "fim": 51.94
+ },
+ {
+  "texto": "Chega",
+  "inicio": 52.04,
+  "fim": 52.2
+ },
+ {
+  "texto": "mais",
+  "inicio": 52.2,
+  "fim": 52.38
+ },
+ {
+  "texto": "código!",
+  "inicio": 52.38,
+  "fim": 52.74
+ },
+ {
+  "texto": "Coloca",
+  "inicio": 53.36,
+  "fim": 53.56
+ },
+ {
+  "texto": "o",
+  "inicio": 53.56,
+  "fim": 53.66
+ },
+ {
+  "texto": "novo",
+  "inicio": 53.66,
+  "fim": 53.76
+ },
+ {
+  "texto": "código!",
+  "inicio": 53.76,
+  "fim": 54.02
+ },
+ {
+  "texto": "Não,",
+  "inicio": 54.16,
+  "fim": 54.24
+ },
+ {
+  "texto": "não,",
+  "inicio": 54.24,
+  "fim": 54.38
+ },
+ {
+  "texto": "não!",
+  "inicio": 54.4,
+  "fim": 54.5
+ },
+ {
+  "texto": "Só",
+  "inicio": 54.68,
+  "fim": 54.8
+ },
+ {
+  "texto": "eu",
+  "inicio": 54.8,
+  "fim": 54.86
+ },
+ {
+  "texto": "sou!",
+  "inicio": 54.86,
+  "fim": 55.0
+ },
+ {
+  "texto": "Só",
+  "inicio": 55.0,
+  "fim": 55.02
+ },
+ {
+  "texto": "eu",
+  "inicio": 55.02,
+  "fim": 55.18
+ },
+ {
+  "texto": "sou",
+  "inicio": 55.18,
+  "fim": 55.2
+ },
+ {
+  "texto": "do",
+  "inicio": 55.2,
+  "fim": 55.34
+ },
+ {
+  "texto": "que",
+  "inicio": 55.34,
+  "fim": 55.54
+ },
+ {
+  "texto": "o",
+  "inicio": 55.54,
+  "fim": 55.6
+ },
+ {
+  "texto": "código!",
+  "inicio": 55.6,
+  "fim": 55.6
+ },
+ {
+  "texto": "Que",
+  "inicio": 55.8,
+  "fim": 55.88
+ },
+ {
+  "texto": "cachorro",
+  "inicio": 55.88,
+  "fim": 57.12
+ },
+ {
+  "texto": "no",
+  "inicio": 57.12,
+  "fim": 57.12
+ },
+ {
+  "texto": "cu?",
+  "inicio": 57.12,
+  "fim": 57.12
+ },
+ {
+  "texto": "Quem?",
+  "inicio": 57.12,
+  "fim": 57.48
+ },
+ {
+  "texto": "É...",
+  "inicio": 57.98,
+  "fim": 58.56
+ },
+ {
+  "texto": "Algumas",
+  "inicio": 58.56,
+  "fim": 58.84
+ },
+ {
+  "texto": "coisas",
+  "inicio": 58.84,
+  "fim": 59.04
+ },
+ {
+  "texto": "vai",
+  "inicio": 59.04,
+  "fim": 59.2
+ },
+ {
+  "texto": "ser...",
+  "inicio": 59.2,
+  "fim": 59.52
+ },
+ {
+  "texto": "Igonita",
+  "inicio": 59.52,
+  "fim": 60.3
+ },
+ {
+  "texto": "amarelo!",
+  "inicio": 60.3,
+  "fim": 60.78
+ },
+ {
+  "texto": "Igonita",
+  "inicio": 61.1,
+  "fim": 61.44
+ },
+ {
+  "texto": "amarelo!",
+  "inicio": 61.44,
+  "fim": 61.88
+ },
+ {
+  "texto": "Igonita",
+  "inicio": 61.88,
+  "fim": 61.88
+ },
+ {
+  "texto": "amarelo!",
+  "inicio": 61.88,
+  "fim": 62.04
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 62.48,
+  "fim": 62.96
+ },
+ {
+  "texto": "me",
+  "inicio": 63.06,
+  "fim": 63.12
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 63.12,
+  "fim": 63.68
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 64.38,
+  "fim": 64.72
+ },
+ {
+  "texto": "me",
+  "inicio": 65.2,
+  "fim": 65.32
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 65.32,
+  "fim": 65.32
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 65.32,
+  "fim": 65.32
+ },
+ {
+  "texto": "me",
+  "inicio": 65.32,
+  "fim": 65.34
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 65.34,
+  "fim": 65.76
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 66.9,
+  "fim": 67.32
+ },
+ {
+  "texto": "me",
+  "inicio": 67.46,
+  "fim": 67.46
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 67.46,
+  "fim": 67.46
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 67.96,
+  "fim": 68.28
+ },
+ {
+  "texto": "me",
+  "inicio": 68.34,
+  "fim": 68.38
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 68.38,
+  "fim": 68.7
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 68.7,
+  "fim": 68.7
+ },
+ {
+  "texto": "me",
+  "inicio": 68.7,
+  "fim": 68.7
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 68.7,
+  "fim": 68.82
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 69.24,
+  "fim": 69.46
+ },
+ {
+  "texto": "me",
+  "inicio": 69.88,
+  "fim": 70.14
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 70.14,
+  "fim": 71.1
+ },
+ {
+  "texto": "Pronto,",
+  "inicio": 71.1,
+  "fim": 71.64
+ },
+ {
+  "texto": "cacete!",
+  "inicio": 71.78,
+  "fim": 72.22
+ },
+ {
+  "texto": "Jogo",
+  "inicio": 72.28,
+  "fim": 72.5
+ },
+ {
+  "texto": "muito!",
+  "inicio": 72.5,
+  "fim": 72.8
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 73.8,
+  "fim": 74.66
+ },
+ {
+  "texto": "me",
+  "inicio": 74.66,
+  "fim": 74.68
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 74.68,
+  "fim": 75.28
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 76.12,
+  "fim": 76.58
+ },
+ {
+  "texto": "me",
+  "inicio": 76.58,
+  "fim": 76.78
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 76.78,
+  "fim": 76.94
+ },
+ {
+  "texto": "Ai,",
+  "inicio": 76.94,
+  "fim": 77.12
+ },
+ {
+  "texto": "me",
+  "inicio": 77.52,
+  "fim": 77.52
+ },
+ {
+  "texto": "fudinho!",
+  "inicio": 77.52,
+  "fim": 77.98
+ }
+]

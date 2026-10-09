@@ -1,0 +1,62 @@
+[
+ {
+  "texto": "Liga",
+  "inicio": 0.0,
+  "fim": 0.12
+ },
+ {
+  "texto": "energia!",
+  "inicio": 0.12,
+  "fim": 0.46
+ },
+ {
+  "texto": "Liga",
+  "inicio": 0.7,
+  "fim": 0.8
+ },
+ {
+  "texto": "energia!",
+  "inicio": 0.8,
+  "fim": 1.1
+ },
+ {
+  "texto": "Muita",
+  "inicio": 1.8000000000000007,
+  "fim": 2.16
+ },
+ {
+  "texto": "energia!",
+  "inicio": 2.16,
+  "fim": 2.36
+ },
+ {
+  "texto": "Toma!",
+  "inicio": 4.300000000000001,
+  "fim": 5.02
+ },
+ {
+  "texto": "Toma",
+  "inicio": 6.380000000000001,
+  "fim": 7.1
+ },
+ {
+  "texto": "não!",
+  "inicio": 7.1,
+  "fim": 7.36
+ },
+ {
+  "texto": "Eu",
+  "inicio": 20.060000000000002,
+  "fim": 20.78
+ },
+ {
+  "texto": "não",
+  "inicio": 20.78,
+  "fim": 20.96
+ },
+ {
+  "texto": "gira!",
+  "inicio": 20.96,
+  "fim": 21.46
+ }
+]

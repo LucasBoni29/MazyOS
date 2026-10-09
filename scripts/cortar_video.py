@@ -11,8 +11,9 @@ Formato do timestamps.txt — um trecho por linha:
   1:03:10 - 1:04:02
 
 Aceita HH:MM:SS, MM:SS ou SS puro, com ou sem espaço em volta do "-".
---vertical corta o resultado final pra 9:16 (1080x1920), centralizado,
-pensado pra TikTok/Shorts. Sem a flag, mantém o formato original (YouTube longo).
+--vertical gera 9:16 (1080x1920) pra TikTok/Shorts: o quadro 16:9 inteiro fica centralizado
+sobre um fundo desfocado do próprio vídeo, sem cortar nada da tela. Sem a flag, mantém o
+formato original (YouTube longo).
 """
 
 import argparse
@@ -50,17 +51,17 @@ def parse_timestamps(path: Path):
     return segments
 
 
+def build_inputs(raw: Path, segments):
+    # -ss antes de cada -i faz busca direta no trecho em vez de decodificar o vídeo desde o início
+    args = []
+    for start, end in segments:
+        args += ["-ss", str(start), "-t", str(end - start), "-i", str(raw)]
+    return args
+
+
 def build_filter_complex(segments):
-    trims = []
-    refs = []
-    for i, (start, end) in enumerate(segments):
-        trims.append(
-            f"[0:v]trim=start={start}:end={end},setpts=PTS-STARTPTS[v{i}];"
-            f"[0:a]atrim=start={start}:end={end},asetpts=PTS-STARTPTS[a{i}];"
-        )
-        refs.append(f"[v{i}][a{i}]")
-    concat = f"{''.join(refs)}concat=n={len(segments)}:v=1:a=1[outv][outa]"
-    return "".join(trims) + concat
+    refs = "".join(f"[{i}:v][{i}:a]" for i in range(len(segments)))
+    return f"{refs}concat=n={len(segments)}:v=1:a=1[outv][outa]"
 
 
 def main():
@@ -81,14 +82,19 @@ def main():
 
     final_video_label = "outv"
     if args.vertical:
-        filter_complex += ";[outv]crop=ih*9/16:ih,scale=1080:1920[outv9x16]"
+        filter_complex += (
+            ";[outv]split[bgsrc][fgsrc]"
+            ";[bgsrc]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:2[bg]"
+            ";[fgsrc]scale=1080:-2[fg]"
+            ";[bg][fg]overlay=(W-w)/2:(H-h)/2[outv9x16]"
+        )
         final_video_label = "outv9x16"
 
     args.saida.parent.mkdir(parents=True, exist_ok=True)
 
     cmd = [
         "ffmpeg", "-y",
-        "-i", str(args.raw),
+        *build_inputs(args.raw, segments),
         "-filter_complex", filter_complex,
         "-map", f"[{final_video_label}]",
         "-map", "[outa]",

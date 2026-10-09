@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Fala,Impact,92,&H0000E5FF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,1,0,1,6,3,2,60,60,440,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.74,0:00:02.76,Fala,,0,0,0,,{\k44}PUTA {\k22}QUE {\k36}PARIU!
+Dialogue: 0,0:00:02.98,0:00:04.34,Fala,,0,0,0,,{\k44}CHEGA {\k20}PERTO {\k10}DE {\k4}MIM {\k10}E {\k8}FALA {\k40}BUZINA!
+Dialogue: 0,0:00:06.38,0:00:06.82,Fala,,0,0,0,,{\k44}BUZINA!
+Dialogue: 0,0:00:07.22,0:00:08.26,Fala,,0,0,0,,{\k32}É {\k18}ESSE {\k14}FILHO {\k14}DA {\k8}PUTA, {\k6}{\k6}VOU {\k6}MATAR!
+Dialogue: 0,0:00:09.42,0:00:09.86,Fala,,0,0,0,,{\k44}TOMA!
+Dialogue: 0,0:00:10.04,0:00:10.44,Fala,,0,0,0,,{\k40}TOMA!
+Dialogue: 0,0:00:11.54,0:00:12.54,Fala,,0,0,0,,{\k32}FUGIU, {\k12}{\k20}FUGIU, {\k12}{\k24}FUGIU!
+Dialogue: 0,0:00:12.68,0:00:14.00,Fala,,0,0,0,,{\k22}CARALHO, {\k22}PARA {\k22}DE {\k22}ME {\k22}BATER {\k22}POHA!
+Dialogue: 0,0:00:14.52,0:00:14.82,Fala,,0,0,0,,{\k18}CALMA {\k12}AÍ!
+Dialogue: 0,0:00:15.02,0:00:16.96,Fala,,0,0,0,,{\k8}TÁ {\k18}VINDO, {\k12}{\k14}TA {\k16}VINDO {\k78}O {\k26}MENOR, {\k22}MANO!
+Dialogue: 0,0:00:18.12,0:00:19.04,Fala,,0,0,0,,{\k34}PEGA {\k16}ELE!
+Dialogue: 0,0:00:19.30,0:00:20.14,Fala,,0,0,0,,{\k34}FOGE {\k12}NÃO {\k38}PORRA!
+Dialogue: 0,0:00:20.50,0:00:20.84,Fala,,0,0,0,,{\k11}FOGE {\k11}NÃO {\k11}PORRA!
+Dialogue: 0,0:00:20.84,0:00:22.16,Fala,,0,0,0,,{\k0}FOGE {\k0}NÃO {\k2}O {\k16}FILHO {\k42}DA {\k44}{\k28}PUTA!
+Dialogue: 0,0:00:22.42,0:00:23.16,Fala,,0,0,0,,{\k12}NÓS {\k12}VAI {\k12}TE {\k12}COMER {\k12}SEU {\k12}OTÁRIO!
+Dialogue: 0,0:00:26.06,0:00:26.80,Fala,,0,0,0,,{\k26}AQUI, {\k18}{\k0}AQUI, {\k20}{\k10}AQUI!
+Dialogue: 0,0:00:27.46,0:00:27.46,Fala,,0,0,0,,{\k0}QUAL {\k0}QUE {\k0}É {\k0}O {\k0}CÓDIGO?
+Dialogue: 0,0:00:27.46,0:00:28.15,Fala,,0,0,0,,{\k14}QUAL {\k14}QUE {\k14}É {\k14}O {\k14}CÓDIGO?
+Dialogue: 0,0:00:29.84,0:00:30.64,Fala,,0,0,0,,{\k36}AI, {\k18}{\k26}CARALHO!
+Dialogue: 0,0:00:30.70,0:00:31.36,Fala,,0,0,0,,{\k14}TEM {\k30}QUATRO {\k22}DE
+Dialogue: 0,0:00:31.36,0:00:31.58,Fala,,0,0,0,,{\k22}NOVO!
+Dialogue: 0,0:00:31.80,0:00:32.52,Fala,,0,0,0,,{\k24}TEM {\k30}QUATRO {\k18}DE
+Dialogue: 0,0:00:32.52,0:00:32.66,Fala,,0,0,0,,{\k14}NOVO!
+Dialogue: 0,0:00:32.80,0:00:33.48,Fala,,0,0,0,,{\k8}ESSE {\k18}DAQUI, {\k4}{\k38}Ó!
+Dialogue: 0,0:00:34.16,0:00:34.76,Fala,,0,0,0,,{\k20}É... {\k20}NOVO {\k20}CÓDIGO!
+Dialogue: 0,0:00:34.90,0:00:35.34,Fala,,0,0,0,,{\k16}NOVO {\k28}CÓDIGO!
+Dialogue: 0,0:00:36.04,0:00:36.76,Fala,,0,0,0,,{\k36}XER*** {\k36}COLORIDA!
+Dialogue: 0,0:00:36.94,0:00:37.30,Fala,,0,0,0,,{\k22}VEM {\k4}NE {\k10}MIM!
+Dialogue: 0,0:00:37.36,0:00:38.02,Fala,,0,0,0,,{\k28}XER*** {\k38}COLORIDA!
+Dialogue: 0,0:00:38.14,0:00:38.66,Fala,,0,0,0,,{\k16}XER*** {\k36}COLORIDA!
+Dialogue: 0,0:00:39.38,0:00:40.08,Fala,,0,0,0,,{\k36}XER*** {\k34}COLORIDA!
+Dialogue: 0,0:00:42.20,0:00:42.64,Fala,,0,0,0,,{\k36}XER*** {\k8}COLORIDA!
+Dialogue: 0,0:00:43.34,0:00:43.88,Fala,,0,0,0,,{\k18}ME {\k20}TRAVA {\k16}NÃO!
+Dialogue: 0,0:00:43.94,0:00:44.74,Fala,,0,0,0,,{\k11}ME {\k11}TRAVA {\k11}NÃO {\k11}QUE {\k11}EU {\k11}BATO {\k11}NELE!
+Dialogue: 0,0:00:46.24,0:00:46.60,Fala,,0,0,0,,{\k36}FUDEU!
+Dialogue: 0,0:00:47.64,0:00:48.84,Fala,,0,0,0,,{\k18}AAH {\k6}{\k8}ENFIA {\k8}O {\k32}CACHORRO {\k16}NO {\k14}** {\k14}{\k4}*****!
+Dialogue: 0,0:00:49.82,0:00:50.58,Fala,,0,0,0,,{\k24}QUE {\k30}CACHORRO {\k12}NO {\k10}**?
+Dialogue: 0,0:00:50.62,0:00:51.00,Fala,,0,0,0,,{\k8}EU {\k6}TÔ {\k24}VIVO?
+Dialogue: 0,0:00:51.64,0:00:51.94,Fala,,0,0,0,,{\k30}PORRA!
+Dialogue: 0,0:00:52.04,0:00:52.74,Fala,,0,0,0,,{\k16}CHEGOU {\k18}MAIS {\k36}UM?!
+Dialogue: 0,0:00:53.36,0:00:54.02,Fala,,0,0,0,,{\k11}QUAL {\k11}QUE {\k11}É {\k11}O {\k11}NOVO {\k11}CÓDIGO?
+Dialogue: 0,0:00:54.16,0:00:54.50,Fala,,0,0,0,,{\k8}NÃO, {\k14}NÃO, {\k2}{\k10}NÃO!
+Dialogue: 0,0:00:54.68,0:00:55.00,Fala,,0,0,0,,{\k12}SOU {\k6}EU!
+Dialogue: 0,0:00:55.00,0:00:55.20,Fala,,0,0,0,,{\k10}SOU {\k10}EU!
+Dialogue: 0,0:00:55.20,0:00:56.20,Fala,,0,0,0,,{\k0}QUAL {\k14}QUE {\k20}É {\k6}O {\k0}NOVO {\k20}{\k8}CÓDIGO?!
+Dialogue: 0,0:00:57.12,0:00:57.48,Fala,,0,0,0,,{\k0}QUEM?
+Dialogue: 0,0:00:57.98,0:00:58.56,Fala,,0,0,0,,{\k58}É...
+Dialogue: 0,0:00:59.52,0:01:00.78,Fala,,0,0,0,,{\k78}PIRULITO {\k48}AMARELO!
+Dialogue: 0,0:01:01.10,0:01:01.88,Fala,,0,0,0,,{\k34}PIRULITO {\k44}AMARELO!
+Dialogue: 0,0:01:01.88,0:01:02.48,Fala,,0,0,0,,{\k30}PIRULITO {\k30}AMARELO!
+Dialogue: 0,0:01:02.48,0:01:03.68,Fala,,0,0,0,,{\k48}AI {\k10}{\k6}ME {\k56}FUDI!
+Dialogue: 0,0:01:04.38,0:01:05.32,Fala,,0,0,0,,{\k34}AI {\k48}{\k12}NÃO {\k0}VELHO!
+Dialogue: 0,0:01:07.96,0:01:08.70,Fala,,0,0,0,,{\k32}AJUDA {\k6}{\k4}EU {\k32}CARALHO!
+Dialogue: 0,0:01:08.70,0:01:09.24,Fala,,0,0,0,,{\k18}FODA-SE {\k18}OS {\k18}ITENS!
+Dialogue: 0,0:01:09.24,0:01:11.10,Fala,,0,0,0,,{\k47}AI, {\k46}AI, {\k47}AI, {\k47}AI!
+Dialogue: 0,0:01:11.10,0:01:12.22,Fala,,0,0,0,,{\k54}PRONTO, {\k14}{\k44}CACETE!
+Dialogue: 0,0:01:12.28,0:01:12.80,Fala,,0,0,0,,{\k22}JOGO {\k30}MUITO!
